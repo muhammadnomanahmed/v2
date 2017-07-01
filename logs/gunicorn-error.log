@@ -1,0 +1,347 @@
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /phpmyadmin
+Not Found: /RECORDINGS/
+Invalid HTTP_HOST header: 'tiptop-knowledge.com'. You may need to add u'tiptop-knowledge.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /recordings/
+Not Found: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'www.tiptop-knowledge.com'. You may need to add u'www.tiptop-knowledge.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.tiptop-knowledge.com'. You may need to add u'www.tiptop-knowledge.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'tiptop-knowledge.com'. You may need to add u'tiptop-knowledge.com' to ALLOWED_HOSTS.
+Not Found: /polls/question/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 154, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in get_parent
+    return self.find_template(parent, context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 131, in find_template
+    template_name, skip=history,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'block' tag with name 'branding' appears more than once
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 84, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 154, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in get_parent
+    return self.find_template(parent, context)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 131, in find_template
+    template_name, skip=history,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'block' tag with name 'branding' appears more than once
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /
+Not Found: /
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /mysql/admin/
+Not Found: /mysql/dbadmin/
+Not Found: /mysql/sqlmanager/
+Not Found: /mysql/mysqlmanager/
+Not Found: /phpmyadmin/
+Not Found: /phpMyadmin/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyAdmin/
+Not Found: /phpmyadmin2/
+Not Found: /phpmyadmin3/
+Not Found: /phpmyadmin4/
+Not Found: /2phpmyadmin/
+Not Found: /phpmy/
+Not Found: /phppma/
+Not Found: /myadmin/
+Not Found: /shopdb/
+Not Found: /MyAdmin/
+Not Found: /program/
+Not Found: /PMA/
+Not Found: /dbadmin/
+Not Found: /pma/
+Not Found: /db/
+Not Found: /mysql/
+Not Found: /database/
+Not Found: /db/phpmyadmin/
+Not Found: /db/phpMyAdmin/
+Not Found: /sqlmanager/
+Not Found: /mysqlmanager/
+Not Found: /php-myadmin/
+Not Found: /phpmy-admin/
+Not Found: /mysqladmin/
+Not Found: /mysql-admin/
+Not Found: /admin/phpmyadmin/
+Not Found: /admin/phpMyAdmin/
+Not Found: /admin/sysadmin/
+Not Found: /admin/sqladmin/
+Not Found: /admin/db/
+Not Found: /admin/web/
+Not Found: /admin/pMA/
+Not Found: /mysql/pma/
+Not Found: /mysql/db/
+Not Found: /mysql/web/
+Not Found: /mysql/pMA/
+Not Found: /sql/phpmanager/
+Not Found: /sql/php-myadmin/
+Not Found: /sql/phpmy-admin/
+Not Found: /sql/sql/
+Not Found: /sql/myadmin/
+Not Found: /sql/webadmin/
+Not Found: /sql/sqlweb/
+Not Found: /sql/websql/
+Not Found: /sql/webdb/
+Not Found: /sql/sqladmin/
+Not Found: /sql/sql-admin/
+Not Found: /sql/phpmyadmin2/
+Not Found: /sql/phpMyAdmin2/
+Not Found: /sql/phpMyAdmin/
+Not Found: /db/myadmin/
+Not Found: /db/webadmin/
+Not Found: /db/dbweb/
+Not Found: /db/websql/
+Not Found: /db/webdb/
+Not Found: /db/dbadmin/
+Not Found: /db/db-admin/
+Not Found: /db/phpmyadmin3/
+Not Found: /db/phpMyAdmin3/
+Not Found: /db/phpMyAdmin-3/
+Not Found: /administrator/phpmyadmin/
+Not Found: /administrator/phpMyAdmin/
+Not Found: /administrator/db/
+Not Found: /administrator/web/
+Not Found: /administrator/pma/
+Not Found: /administrator/PMA/
+Not Found: /administrator/admin/
+Not Found: /phpMyAdmin2/
+Not Found: /phpMyAdmin3/
+Not Found: /phpMyAdmin4/
+Not Found: /phpMyAdmin-3/
+Not Found: /php-my-admin/
+Not Found: /PMA2011/
+Not Found: /PMA2012/
+Not Found: /PMA2013/
+Not Found: /PMA2014/
+Not Found: /PMA2015/
+Not Found: /PMA2016/
+Not Found: /PMA2017/
+Not Found: /PMA2018/
+Not Found: /pma2011/
+Not Found: /pma2012/
+Not Found: /pma2013/
+Not Found: /pma2014/
+Not Found: /pma2015/
+Not Found: /pma2016/
+Not Found: /pma2017/
+Not Found: /pma2018/
+Not Found: /phpmyadmin2011/
+Not Found: /phpmyadmin2012/
+Not Found: /phpmyadmin2013/
+Not Found: /phpmyadmin2014/
+Not Found: /phpmyadmin2016/
+Not Found: /phpmyadmin2017/
+Not Found: /phpmyadmin2018/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Not Found: /mysql/admin/
+Not Found: /mysql/dbadmin/
+Not Found: /mysql/sqlmanager/
+Not Found: /mysql/mysqlmanager/
+Not Found: /phpmyadmin/
+Not Found: /phpMyadmin/
+Not Found: /phpMyAdmin/
+Not Found: /phpmyAdmin/
+Not Found: /phpmyadmin2/
+Not Found: /phpmyadmin3/
+Not Found: /phpmyadmin4/
+Not Found: /2phpmyadmin/
+Not Found: /phpmy/
+Not Found: /phppma/
+Not Found: /myadmin/
+Not Found: /shopdb/
+Not Found: /MyAdmin/
+Not Found: /program/
+Not Found: /PMA/
+Not Found: /dbadmin/
+Not Found: /pma/
+Not Found: /db/
+Not Found: /mysql/
+Not Found: /database/
+Not Found: /db/phpmyadmin/
+Not Found: /db/phpMyAdmin/
+Not Found: /sqlmanager/
+Not Found: /mysqlmanager/
+Not Found: /php-myadmin/
+Not Found: /phpmy-admin/
+Not Found: /mysqladmin/
+Not Found: /mysql-admin/
+Not Found: /admin/phpmyadmin/
+Not Found: /admin/phpMyAdmin/
+Not Found: /admin/sysadmin/
+Not Found: /admin/sqladmin/
+Not Found: /admin/db/
+Not Found: /admin/web/
+Not Found: /admin/pMA/
+Not Found: /mysql/pma/
+Not Found: /mysql/db/
+Not Found: /mysql/web/
+Not Found: /mysql/pMA/
+Not Found: /sql/phpmanager/
+Not Found: /sql/php-myadmin/
+Not Found: /sql/phpmy-admin/
+Not Found: /sql/sql/
+Not Found: /sql/myadmin/
+Not Found: /sql/webadmin/
+Not Found: /sql/sqlweb/
+Not Found: /sql/websql/
+Not Found: /sql/webdb/
+Not Found: /sql/sqladmin/
+Not Found: /sql/sql-admin/
+Not Found: /sql/phpmyadmin2/
+Not Found: /sql/phpMyAdmin2/
+Not Found: /sql/phpMyAdmin/
+Not Found: /db/myadmin/
+Not Found: /db/webadmin/
+Not Found: /db/dbweb/
+Not Found: /db/websql/
+Not Found: /db/webdb/
+Not Found: /db/dbadmin/
+Not Found: /db/db-admin/
+Not Found: /db/phpmyadmin3/
+Not Found: /db/phpMyAdmin3/
+Not Found: /db/phpMyAdmin-3/
+Not Found: /administrator/phpmyadmin/
+Not Found: /administrator/phpMyAdmin/
+Not Found: /administrator/db/
+Not Found: /administrator/web/
+Not Found: /administrator/pma/
+Not Found: /administrator/PMA/
+Not Found: /administrator/admin/
+Not Found: /phpMyAdmin2/
+Not Found: /phpMyAdmin3/
+Not Found: /phpMyAdmin4/
+Not Found: /phpMyAdmin-3/
+Not Found: /php-my-admin/
+Not Found: /PMA2011/
+Not Found: /PMA2012/
+Not Found: /PMA2013/
+Not Found: /PMA2014/
+Not Found: /PMA2015/
+Not Found: /PMA2016/
+Not Found: /PMA2017/
+Not Found: /PMA2018/
+Not Found: /pma2011/
+Not Found: /pma2012/
+Not Found: /pma2013/
+Not Found: /pma2014/
+Not Found: /pma2015/
+Not Found: /pma2016/
+Not Found: /pma2017/
+Not Found: /pma2018/
+Not Found: /phpmyadmin2011/
+Not Found: /phpmyadmin2012/
+Not Found: /phpmyadmin2013/
+Not Found: /phpmyadmin2014/
+Not Found: /phpmyadmin2016/
+Not Found: /phpmyadmin2017/
+Not Found: /phpmyadmin2018/
+Not Found: /phpmanager/
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'testp3.pospr.waw.pl'. You may need to add u'testp3.pospr.waw.pl' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: 'tiptop-knowledge.com'. You may need to add u'tiptop-knowledge.com' to ALLOWED_HOSTS.
+Not Found: /polls/2/
+Internal Server Error: /polls/1/
+Traceback (most recent call last):
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/urban/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 82, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/response.py", line 64, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loader.py", line 48, in select_template
+    return engine.get_template(template_name)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/urban/local/lib/python2.7/site-packages/django/template/base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+TemplateSyntaxError: Invalid block tag on line 5: 'static'. Did you forget to register or load this tag?
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+Invalid HTTP_HOST header: u'/home/urban/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
